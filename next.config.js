@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     emotion: {
       autoLabel: "always",
-      labelFormat: "customPrefix-[local]",
+      labelFormat: "customPrefix-[filename]_[local]",
       sourceMap: false,
     }
   }

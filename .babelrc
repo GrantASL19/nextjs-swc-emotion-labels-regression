@@ -10,5 +10,15 @@
       }
     ]
   ],
-  "plugins": ["@emotion/babel-plugin"]
+  "plugins": [
+    [
+      "@emotion/babel-plugin",
+      {
+        "sourceMap": false,
+        "autoLabel": "always",
+        "labelFormat": "customPrefix-[filename]_[local]",
+        "cssPropOptimization": true
+      }
+    ]
+  ]
 }
